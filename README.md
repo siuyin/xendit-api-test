@@ -4,6 +4,9 @@
 
 ```
 cd cmd
+cp test.sample.env test.secret.env 
+# then edit test.secret.env to include your secret token
+
 . test.secret.env
 ```
 
